@@ -98,10 +98,12 @@ class Person {
 
 #### 泛化关系 Generalization
 **泛化关系**一般元素和特殊元素之间的分类关系
+
 ![alt UML ](images/Generalization.png)
 #### 实现关系 Realization
 
 ![alt UML ](images/Realization.png)
+
 ### 2. 图 Diagrams
 
 #### 用例图 Use Case Diagram
@@ -111,7 +113,7 @@ class Person {
 * 3.参与者与用例直接的关系 : 泛化关系,包含关系,扩展关系等
 * 4.系统边界
 
-##### 难点
+##### 用例图的误区：
   ###### 1.确定系统边界，找出真正的Actor
 
 > 例子： 小王到银行去开户，向大堂经理询问了办理手续，填写了表单，交给了柜台职员，拿到了银行卡。在这个场景中，谁是Actor？
@@ -136,14 +138,14 @@ class Person {
 
 ![alt UML ](images/usecase.png)
 
+#### 类图 Class Diagram
+类之间常用的关系进行了简单的描述，主要有：关联关系、泛化、依赖、聚合和组合。
+![alt UML ](images/class_diagram.png)
+
 #### 活动图 Activity Diagram
 > 活动图包含的图形元素有动作状态，活动状态，动作流，分支与合并，分叉与汇合，泳道和对象流等。
 
 ![alt ActivityDiagram](images/ActivityDiagram.jpg)
-
-#### 类图 Class Diagram
-类之间常用的关系进行了简单的描述，主要有：关联关系、泛化、依赖、聚合和组合。
-![alt UML ](images/class_diagram.png)
 
 #### 时序图 Sequence Diagram
 时序图（Sequence Diagram）是显示对象之间交互的图，这些对象是按时间顺序排列的。顺序图中显示的是参与交互的对象及其对象之间消息交互的顺序。时序图中包括的建模元素主要有：对象（Actor）、生命线（Lifeline）、控制焦点（Focus of control）、消息（Message）等等。
