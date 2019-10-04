@@ -162,6 +162,7 @@ class Person {
 
 ### 1. 设计流程
 ![alt UML ](images/4_1.png)
+
 基于4+1View，用例视图驱动整体，逻辑视图驱动了开发视图和进程视图，基于开发视图和进程视图，完成了部署视图。 
  * 用例图来驱动整体
  * 基于用例图，找出系统中的实体和实体的关系，并进行领域设计，完成类图，包图的设计。
@@ -202,15 +203,15 @@ class Person {
 
 ### 3. UDD & DDD & TDD  
 
-* UDD Use-Case-Driven Development 用例驱动开发
-* TDD Test-Driven Development 测试驱动开发
+*  Use-Case-Driven Development 用例驱动开发
+*  Test-Driven Development 测试驱动开发
  > Kent Beck（敏捷开发的开创者&JUnit作者）于发表 2003
 
-* DDD Domain-Driven Design 领域驱动设计
+*  Domain-Driven Design 领域驱动设计
   
   >2004年著名建模专家Eric Evans提出
 
-#### 最佳实践的Q&A
+#### 最佳实践 Q&A :
 ##### 问题1：到底怎么做TDD？ 
 答：最佳实践是，在初步设计完毕后，根据业务场景和用例来设计测试用例，（其实测试用例本身也是用例的一个实例），并实现这些用例，从而来找出设计的问题，逐步完善细节。 同时TDD还很好发现代码的耦合度的问题。 
 
@@ -226,7 +227,7 @@ UML建模简单的总结是：
 ```
 提醒：
     - 联系实际不教条
-    - 工具帮助思考，思考才是关键
+    - 工具用来帮助思考，思考才是关键
 ```
 
 ```
